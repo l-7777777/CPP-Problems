@@ -1,9 +1,8 @@
-
-now I have another problem
-let me explain a bit before showing code:
-`Component` is a class with 1 member, `bool enabled`
-`Script` is a class inherited from `Component`, with 2 added functions: `void Frame()` and `void Begin()`
-`GameObject` is a class with 3 members, `bool enabled`, `std::wstring name` and `std::vector<Component *> components;`, and 1 function, `void addComponent(Component *)`
+now I have another problem<br>
+let me explain a bit before showing code:<br>
+`Component` is a class with 1 member, `bool enabled`<br>
+`Script` is a class inherited from `Component`, with 2 added functions: `void Frame()` and `void Begin()`<br>
+`GameObject` is a class with 3 members, `bool enabled`, `std::wstring name` and `std::vector<Component *> components;`, and 1 function, `void addComponent(Component *)`<br>
 
 now, I have a script, `MainScript`, which is inherited from `Script`
 it overrides `void Frame()` by making it print "e"
